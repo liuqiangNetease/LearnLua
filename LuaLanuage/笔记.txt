@@ -1,0 +1,19 @@
+1 在src目录下 make 平台（macos）
+  这样就生成了lua 和 luac （编译器编译lua文件成luac.out）
+
+2 在bin目录下 ./lua 进入lua环境
+  》print(“hello lua”)  控制台输出结果
+  在bin目录下 touch hello.lua 或者nano hello.lua 新建文件  
+  ./lua hello.lua  输出结果
+  ./lua luac.out 输出结果
+
+3 工程LuaLanuage实现类继承
+4 cosos2dx-lua. 
+  创建工程 ./create_project.py -project HelloLuaOnCC -package com.liuqiang.helloLua -language lua 
+  
+5 lua编辑器ldt
+
+6 c与lua交互机制
+  通过堆栈交互。   堆栈顶部 -1   底部 1
+
+  
