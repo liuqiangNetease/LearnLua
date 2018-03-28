@@ -1,2 +1,0 @@
-# LearnLua
-learn lua

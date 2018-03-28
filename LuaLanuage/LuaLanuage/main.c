@@ -179,7 +179,7 @@ int getNumber(lua_State* L)
 //    lua_State * L = luaL_newstate();
 //    luaL_openlibs(L);
 //
-//    lua_register(L, "sayHello", sayHello);
+    lua_register(L, "sayHello", sayHello);
 //    lua_register(L, "getString", getString);
 //    lua_register(L, "getNumber", getNumber);
 //

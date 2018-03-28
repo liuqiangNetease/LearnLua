@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1CE6D68204FBAAD001594A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D67204FBAAD001594A1 /* main.cpp */; };
+		A1CE6DAC204FBAD1001594A1 /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D70204FBAD1001594A1 /* lapi.c */; };
+		A1CE6DAD204FBAD1001594A1 /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D72204FBAD1001594A1 /* lauxlib.c */; };
+		A1CE6DAE204FBAD1001594A1 /* lbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D74204FBAD1001594A1 /* lbaselib.c */; };
+		A1CE6DAF204FBAD1001594A1 /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D75204FBAD1001594A1 /* lbitlib.c */; };
+		A1CE6DB0204FBAD1001594A1 /* lcode.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D76204FBAD1001594A1 /* lcode.c */; };
+		A1CE6DB1204FBAD1001594A1 /* lcorolib.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D78204FBAD1001594A1 /* lcorolib.c */; };
+		A1CE6DB2204FBAD1001594A1 /* lctype.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D79204FBAD1001594A1 /* lctype.c */; };
+		A1CE6DB3204FBAD1001594A1 /* ldblib.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D7B204FBAD1001594A1 /* ldblib.c */; };
+		A1CE6DB4204FBAD1001594A1 /* ldebug.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D7C204FBAD1001594A1 /* ldebug.c */; };
+		A1CE6DB5204FBAD1001594A1 /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D7E204FBAD1001594A1 /* ldo.c */; };
+		A1CE6DB6204FBAD1001594A1 /* ldump.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D80204FBAD1001594A1 /* ldump.c */; };
+		A1CE6DB7204FBAD1001594A1 /* lfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D81204FBAD1001594A1 /* lfunc.c */; };
+		A1CE6DB8204FBAD1001594A1 /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D83204FBAD1001594A1 /* lgc.c */; };
+		A1CE6DB9204FBAD1001594A1 /* linit.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D85204FBAD1001594A1 /* linit.c */; };
+		A1CE6DBA204FBAD1001594A1 /* liolib.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D86204FBAD1001594A1 /* liolib.c */; };
+		A1CE6DBB204FBAD1001594A1 /* llex.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D87204FBAD1001594A1 /* llex.c */; };
+		A1CE6DBC204FBAD1001594A1 /* lmathlib.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D8A204FBAD1001594A1 /* lmathlib.c */; };
+		A1CE6DBD204FBAD1001594A1 /* lmem.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D8B204FBAD1001594A1 /* lmem.c */; };
+		A1CE6DBE204FBAD1001594A1 /* loadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D8D204FBAD1001594A1 /* loadlib.c */; };
+		A1CE6DBF204FBAD1001594A1 /* lobject.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D8E204FBAD1001594A1 /* lobject.c */; };
+		A1CE6DC0204FBAD1001594A1 /* lopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D90204FBAD1001594A1 /* lopcodes.c */; };
+		A1CE6DC1204FBAD1001594A1 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D92204FBAD1001594A1 /* loslib.c */; };
+		A1CE6DC2204FBAD1001594A1 /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D93204FBAD1001594A1 /* lparser.c */; };
+		A1CE6DC3204FBAD1001594A1 /* lstate.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D96204FBAD1001594A1 /* lstate.c */; };
+		A1CE6DC4204FBAD1001594A1 /* lstring.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D98204FBAD1001594A1 /* lstring.c */; };
+		A1CE6DC5204FBAD1001594A1 /* lstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D9A204FBAD1001594A1 /* lstrlib.c */; };
+		A1CE6DC6204FBAD1001594A1 /* ltable.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D9B204FBAD1001594A1 /* ltable.c */; };
+		A1CE6DC7204FBAD1001594A1 /* ltablib.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D9D204FBAD1001594A1 /* ltablib.c */; };
+		A1CE6DC8204FBAD1001594A1 /* ltm.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6D9E204FBAD1001594A1 /* ltm.c */; };
+		A1CE6DC9204FBAD1001594A1 /* lua.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6DA0204FBAD1001594A1 /* lua.c */; };
+		A1CE6DCA204FBAD1001594A1 /* lundump.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6DA5204FBAD1001594A1 /* lundump.c */; };
+		A1CE6DCB204FBAD1001594A1 /* lutf8lib.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6DA7204FBAD1001594A1 /* lutf8lib.c */; };
+		A1CE6DCC204FBAD1001594A1 /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6DA8204FBAD1001594A1 /* lvm.c */; };
+		A1CE6DCD204FBAD1001594A1 /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6DAA204FBAD1001594A1 /* lzio.c */; };
+		A1CE6DCF204FBB7B001594A1 /* LuaScriptModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6DCE204FBB7B001594A1 /* LuaScriptModule.cpp */; };
+		A1CE6DD4204FBDEF001594A1 /* ScriptModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6DD3204FBDEF001594A1 /* ScriptModule.cpp */; };
+		A1CE6DD6204FC111001594A1 /* LuaFunctor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1CE6DD5204FC111001594A1 /* LuaFunctor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1CE6D62204FBAAD001594A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A1CE6D64204FBAAD001594A1 /* ceguiLuabind */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ceguiLuabind; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1CE6D67204FBAAD001594A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A1CE6D70204FBAD1001594A1 /* lapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lapi.c; sourceTree = "<group>"; };
+		A1CE6D71204FBAD1001594A1 /* lapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lapi.h; sourceTree = "<group>"; };
+		A1CE6D72204FBAD1001594A1 /* lauxlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lauxlib.c; sourceTree = "<group>"; };
+		A1CE6D73204FBAD1001594A1 /* lauxlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lauxlib.h; sourceTree = "<group>"; };
+		A1CE6D74204FBAD1001594A1 /* lbaselib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lbaselib.c; sourceTree = "<group>"; };
+		A1CE6D75204FBAD1001594A1 /* lbitlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lbitlib.c; sourceTree = "<group>"; };
+		A1CE6D76204FBAD1001594A1 /* lcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcode.c; sourceTree = "<group>"; };
+		A1CE6D77204FBAD1001594A1 /* lcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcode.h; sourceTree = "<group>"; };
+		A1CE6D78204FBAD1001594A1 /* lcorolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcorolib.c; sourceTree = "<group>"; };
+		A1CE6D79204FBAD1001594A1 /* lctype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lctype.c; sourceTree = "<group>"; };
+		A1CE6D7A204FBAD1001594A1 /* lctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lctype.h; sourceTree = "<group>"; };
+		A1CE6D7B204FBAD1001594A1 /* ldblib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldblib.c; sourceTree = "<group>"; };
+		A1CE6D7C204FBAD1001594A1 /* ldebug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldebug.c; sourceTree = "<group>"; };
+		A1CE6D7D204FBAD1001594A1 /* ldebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldebug.h; sourceTree = "<group>"; };
+		A1CE6D7E204FBAD1001594A1 /* ldo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldo.c; sourceTree = "<group>"; };
+		A1CE6D7F204FBAD1001594A1 /* ldo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldo.h; sourceTree = "<group>"; };
+		A1CE6D80204FBAD1001594A1 /* ldump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldump.c; sourceTree = "<group>"; };
+		A1CE6D81204FBAD1001594A1 /* lfunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfunc.c; sourceTree = "<group>"; };
+		A1CE6D82204FBAD1001594A1 /* lfunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfunc.h; sourceTree = "<group>"; };
+		A1CE6D83204FBAD1001594A1 /* lgc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lgc.c; sourceTree = "<group>"; };
+		A1CE6D84204FBAD1001594A1 /* lgc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lgc.h; sourceTree = "<group>"; };
+		A1CE6D85204FBAD1001594A1 /* linit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linit.c; sourceTree = "<group>"; };
+		A1CE6D86204FBAD1001594A1 /* liolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = liolib.c; sourceTree = "<group>"; };
+		A1CE6D87204FBAD1001594A1 /* llex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = llex.c; sourceTree = "<group>"; };
+		A1CE6D88204FBAD1001594A1 /* llex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llex.h; sourceTree = "<group>"; };
+		A1CE6D89204FBAD1001594A1 /* llimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llimits.h; sourceTree = "<group>"; };
+		A1CE6D8A204FBAD1001594A1 /* lmathlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmathlib.c; sourceTree = "<group>"; };
+		A1CE6D8B204FBAD1001594A1 /* lmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmem.c; sourceTree = "<group>"; };
+		A1CE6D8C204FBAD1001594A1 /* lmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lmem.h; sourceTree = "<group>"; };
+		A1CE6D8D204FBAD1001594A1 /* loadlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loadlib.c; sourceTree = "<group>"; };
+		A1CE6D8E204FBAD1001594A1 /* lobject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lobject.c; sourceTree = "<group>"; };
+		A1CE6D8F204FBAD1001594A1 /* lobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lobject.h; sourceTree = "<group>"; };
+		A1CE6D90204FBAD1001594A1 /* lopcodes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lopcodes.c; sourceTree = "<group>"; };
+		A1CE6D91204FBAD1001594A1 /* lopcodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lopcodes.h; sourceTree = "<group>"; };
+		A1CE6D92204FBAD1001594A1 /* loslib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loslib.c; sourceTree = "<group>"; };
+		A1CE6D93204FBAD1001594A1 /* lparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lparser.c; sourceTree = "<group>"; };
+		A1CE6D94204FBAD1001594A1 /* lparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lparser.h; sourceTree = "<group>"; };
+		A1CE6D95204FBAD1001594A1 /* lprefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lprefix.h; sourceTree = "<group>"; };
+		A1CE6D96204FBAD1001594A1 /* lstate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstate.c; sourceTree = "<group>"; };
+		A1CE6D97204FBAD1001594A1 /* lstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstate.h; sourceTree = "<group>"; };
+		A1CE6D98204FBAD1001594A1 /* lstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstring.c; sourceTree = "<group>"; };
+		A1CE6D99204FBAD1001594A1 /* lstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstring.h; sourceTree = "<group>"; };
+		A1CE6D9A204FBAD1001594A1 /* lstrlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstrlib.c; sourceTree = "<group>"; };
+		A1CE6D9B204FBAD1001594A1 /* ltable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltable.c; sourceTree = "<group>"; };
+		A1CE6D9C204FBAD1001594A1 /* ltable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltable.h; sourceTree = "<group>"; };
+		A1CE6D9D204FBAD1001594A1 /* ltablib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltablib.c; sourceTree = "<group>"; };
+		A1CE6D9E204FBAD1001594A1 /* ltm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltm.c; sourceTree = "<group>"; };
+		A1CE6D9F204FBAD1001594A1 /* ltm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltm.h; sourceTree = "<group>"; };
+		A1CE6DA0204FBAD1001594A1 /* lua.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lua.c; sourceTree = "<group>"; };
+		A1CE6DA1204FBAD1001594A1 /* lua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.h; sourceTree = "<group>"; };
+		A1CE6DA2204FBAD1001594A1 /* lua.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lua.hpp; sourceTree = "<group>"; };
+		A1CE6DA3204FBAD1001594A1 /* luaconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luaconf.h; sourceTree = "<group>"; };
+		A1CE6DA4204FBAD1001594A1 /* lualib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lualib.h; sourceTree = "<group>"; };
+		A1CE6DA5204FBAD1001594A1 /* lundump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lundump.c; sourceTree = "<group>"; };
+		A1CE6DA6204FBAD1001594A1 /* lundump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lundump.h; sourceTree = "<group>"; };
+		A1CE6DA7204FBAD1001594A1 /* lutf8lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lutf8lib.c; sourceTree = "<group>"; };
+		A1CE6DA8204FBAD1001594A1 /* lvm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lvm.c; sourceTree = "<group>"; };
+		A1CE6DA9204FBAD1001594A1 /* lvm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvm.h; sourceTree = "<group>"; };
+		A1CE6DAA204FBAD1001594A1 /* lzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lzio.c; sourceTree = "<group>"; };
+		A1CE6DAB204FBAD1001594A1 /* lzio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzio.h; sourceTree = "<group>"; };
+		A1CE6DCE204FBB7B001594A1 /* LuaScriptModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LuaScriptModule.cpp; path = ../LuaScriptModule.cpp; sourceTree = "<group>"; };
+		A1CE6DD0204FBB91001594A1 /* LuaScriptModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuaScriptModule.h; sourceTree = "<group>"; };
+		A1CE6DD1204FBBA8001594A1 /* ScriptModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScriptModule.h; sourceTree = "<group>"; };
+		A1CE6DD2204FBC7B001594A1 /* Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
+		A1CE6DD3204FBDEF001594A1 /* ScriptModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ScriptModule.cpp; sourceTree = "<group>"; };
+		A1CE6DD5204FC111001594A1 /* LuaFunctor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LuaFunctor.cpp; sourceTree = "<group>"; };
+		A1CE6DD7204FC121001594A1 /* LuaFunctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuaFunctor.h; sourceTree = "<group>"; };
+		A1CE6DD8204FC61C001594A1 /* table.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = table.lua; path = ../../LuaLanuage/table.lua; sourceTree = "<group>"; };
+		A1CE6DD9204FC61C001594A1 /* class.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = class.lua; path = ../../LuaLanuage/class.lua; sourceTree = "<group>"; };
+		A1CE6DDA204FC61C001594A1 /* runme.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = runme.lua; path = ../../LuaLanuage/runme.lua; sourceTree = "<group>"; };
+		A1CE6DDB204FC61C001594A1 /* main.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = main.lua; path = ../../LuaLanuage/main.lua; sourceTree = "<group>"; };
+		A1CE6DDC204FCECC001594A1 /* main.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = main.lua; path = "../../../../../Library/Developer/Xcode/DerivedData/ceguiLuabind-gtnjdwnuirceazddpkyupgzalbyi/Build/Products/Debug/main.lua"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1CE6D61204FBAAD001594A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1CE6D5B204FBAAD001594A1 = {
+			isa = PBXGroup;
+			children = (
+				A1CE6DD7204FC121001594A1 /* LuaFunctor.h */,
+				A1CE6DD5204FC111001594A1 /* LuaFunctor.cpp */,
+				A1CE6DD9204FC61C001594A1 /* class.lua */,
+				A1CE6DDB204FC61C001594A1 /* main.lua */,
+				A1CE6DDA204FC61C001594A1 /* runme.lua */,
+				A1CE6DD8204FC61C001594A1 /* table.lua */,
+				A1CE6DD3204FBDEF001594A1 /* ScriptModule.cpp */,
+				A1CE6DD2204FBC7B001594A1 /* Base.h */,
+				A1CE6DD1204FBBA8001594A1 /* ScriptModule.h */,
+				A1CE6DD0204FBB91001594A1 /* LuaScriptModule.h */,
+				A1CE6DCE204FBB7B001594A1 /* LuaScriptModule.cpp */,
+				A1CE6D6E204FBAD1001594A1 /* lua-5.3.4 */,
+				A1CE6D66204FBAAD001594A1 /* ceguiLuabind */,
+				A1CE6D65204FBAAD001594A1 /* Products */,
+				A1CE6DDC204FCECC001594A1 /* main.lua */,
+			);
+			sourceTree = "<group>";
+		};
+		A1CE6D65204FBAAD001594A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1CE6D64204FBAAD001594A1 /* ceguiLuabind */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1CE6D66204FBAAD001594A1 /* ceguiLuabind */ = {
+			isa = PBXGroup;
+			children = (
+				A1CE6D67204FBAAD001594A1 /* main.cpp */,
+			);
+			path = ceguiLuabind;
+			sourceTree = "<group>";
+		};
+		A1CE6D6E204FBAD1001594A1 /* lua-5.3.4 */ = {
+			isa = PBXGroup;
+			children = (
+				A1CE6D6F204FBAD1001594A1 /* src */,
+			);
+			name = "lua-5.3.4";
+			path = "../lua-5.3.4";
+			sourceTree = "<group>";
+		};
+		A1CE6D6F204FBAD1001594A1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A1CE6D70204FBAD1001594A1 /* lapi.c */,
+				A1CE6D71204FBAD1001594A1 /* lapi.h */,
+				A1CE6D72204FBAD1001594A1 /* lauxlib.c */,
+				A1CE6D73204FBAD1001594A1 /* lauxlib.h */,
+				A1CE6D74204FBAD1001594A1 /* lbaselib.c */,
+				A1CE6D75204FBAD1001594A1 /* lbitlib.c */,
+				A1CE6D76204FBAD1001594A1 /* lcode.c */,
+				A1CE6D77204FBAD1001594A1 /* lcode.h */,
+				A1CE6D78204FBAD1001594A1 /* lcorolib.c */,
+				A1CE6D79204FBAD1001594A1 /* lctype.c */,
+				A1CE6D7A204FBAD1001594A1 /* lctype.h */,
+				A1CE6D7B204FBAD1001594A1 /* ldblib.c */,
+				A1CE6D7C204FBAD1001594A1 /* ldebug.c */,
+				A1CE6D7D204FBAD1001594A1 /* ldebug.h */,
+				A1CE6D7E204FBAD1001594A1 /* ldo.c */,
+				A1CE6D7F204FBAD1001594A1 /* ldo.h */,
+				A1CE6D80204FBAD1001594A1 /* ldump.c */,
+				A1CE6D81204FBAD1001594A1 /* lfunc.c */,
+				A1CE6D82204FBAD1001594A1 /* lfunc.h */,
+				A1CE6D83204FBAD1001594A1 /* lgc.c */,
+				A1CE6D84204FBAD1001594A1 /* lgc.h */,
+				A1CE6D85204FBAD1001594A1 /* linit.c */,
+				A1CE6D86204FBAD1001594A1 /* liolib.c */,
+				A1CE6D87204FBAD1001594A1 /* llex.c */,
+				A1CE6D88204FBAD1001594A1 /* llex.h */,
+				A1CE6D89204FBAD1001594A1 /* llimits.h */,
+				A1CE6D8A204FBAD1001594A1 /* lmathlib.c */,
+				A1CE6D8B204FBAD1001594A1 /* lmem.c */,
+				A1CE6D8C204FBAD1001594A1 /* lmem.h */,
+				A1CE6D8D204FBAD1001594A1 /* loadlib.c */,
+				A1CE6D8E204FBAD1001594A1 /* lobject.c */,
+				A1CE6D8F204FBAD1001594A1 /* lobject.h */,
+				A1CE6D90204FBAD1001594A1 /* lopcodes.c */,
+				A1CE6D91204FBAD1001594A1 /* lopcodes.h */,
+				A1CE6D92204FBAD1001594A1 /* loslib.c */,
+				A1CE6D93204FBAD1001594A1 /* lparser.c */,
+				A1CE6D94204FBAD1001594A1 /* lparser.h */,
+				A1CE6D95204FBAD1001594A1 /* lprefix.h */,
+				A1CE6D96204FBAD1001594A1 /* lstate.c */,
+				A1CE6D97204FBAD1001594A1 /* lstate.h */,
+				A1CE6D98204FBAD1001594A1 /* lstring.c */,
+				A1CE6D99204FBAD1001594A1 /* lstring.h */,
+				A1CE6D9A204FBAD1001594A1 /* lstrlib.c */,
+				A1CE6D9B204FBAD1001594A1 /* ltable.c */,
+				A1CE6D9C204FBAD1001594A1 /* ltable.h */,
+				A1CE6D9D204FBAD1001594A1 /* ltablib.c */,
+				A1CE6D9E204FBAD1001594A1 /* ltm.c */,
+				A1CE6D9F204FBAD1001594A1 /* ltm.h */,
+				A1CE6DA0204FBAD1001594A1 /* lua.c */,
+				A1CE6DA1204FBAD1001594A1 /* lua.h */,
+				A1CE6DA2204FBAD1001594A1 /* lua.hpp */,
+				A1CE6DA3204FBAD1001594A1 /* luaconf.h */,
+				A1CE6DA4204FBAD1001594A1 /* lualib.h */,
+				A1CE6DA5204FBAD1001594A1 /* lundump.c */,
+				A1CE6DA6204FBAD1001594A1 /* lundump.h */,
+				A1CE6DA7204FBAD1001594A1 /* lutf8lib.c */,
+				A1CE6DA8204FBAD1001594A1 /* lvm.c */,
+				A1CE6DA9204FBAD1001594A1 /* lvm.h */,
+				A1CE6DAA204FBAD1001594A1 /* lzio.c */,
+				A1CE6DAB204FBAD1001594A1 /* lzio.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1CE6D63204FBAAD001594A1 /* ceguiLuabind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1CE6D6B204FBAAD001594A1 /* Build configuration list for PBXNativeTarget "ceguiLuabind" */;
+			buildPhases = (
+				A1CE6D60204FBAAD001594A1 /* Sources */,
+				A1CE6D61204FBAAD001594A1 /* Frameworks */,
+				A1CE6D62204FBAAD001594A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ceguiLuabind;
+			productName = ceguiLuabind;
+			productReference = A1CE6D64204FBAAD001594A1 /* ceguiLuabind */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1CE6D5C204FBAAD001594A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = liuqiang;
+				TargetAttributes = {
+					A1CE6D63204FBAAD001594A1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A1CE6D5F204FBAAD001594A1 /* Build configuration list for PBXProject "ceguiLuabind" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1CE6D5B204FBAAD001594A1;
+			productRefGroup = A1CE6D65204FBAAD001594A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1CE6D63204FBAAD001594A1 /* ceguiLuabind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1CE6D60204FBAAD001594A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CE6DB7204FBAD1001594A1 /* lfunc.c in Sources */,
+				A1CE6DBF204FBAD1001594A1 /* lobject.c in Sources */,
+				A1CE6DB5204FBAD1001594A1 /* ldo.c in Sources */,
+				A1CE6DC1204FBAD1001594A1 /* loslib.c in Sources */,
+				A1CE6DCB204FBAD1001594A1 /* lutf8lib.c in Sources */,
+				A1CE6DC3204FBAD1001594A1 /* lstate.c in Sources */,
+				A1CE6DBC204FBAD1001594A1 /* lmathlib.c in Sources */,
+				A1CE6DC7204FBAD1001594A1 /* ltablib.c in Sources */,
+				A1CE6DD6204FC111001594A1 /* LuaFunctor.cpp in Sources */,
+				A1CE6DB3204FBAD1001594A1 /* ldblib.c in Sources */,
+				A1CE6DD4204FBDEF001594A1 /* ScriptModule.cpp in Sources */,
+				A1CE6DC4204FBAD1001594A1 /* lstring.c in Sources */,
+				A1CE6DCD204FBAD1001594A1 /* lzio.c in Sources */,
+				A1CE6DC8204FBAD1001594A1 /* ltm.c in Sources */,
+				A1CE6DB9204FBAD1001594A1 /* linit.c in Sources */,
+				A1CE6DC6204FBAD1001594A1 /* ltable.c in Sources */,
+				A1CE6DBA204FBAD1001594A1 /* liolib.c in Sources */,
+				A1CE6DB1204FBAD1001594A1 /* lcorolib.c in Sources */,
+				A1CE6D68204FBAAD001594A1 /* main.cpp in Sources */,
+				A1CE6DCF204FBB7B001594A1 /* LuaScriptModule.cpp in Sources */,
+				A1CE6DB2204FBAD1001594A1 /* lctype.c in Sources */,
+				A1CE6DC5204FBAD1001594A1 /* lstrlib.c in Sources */,
+				A1CE6DB8204FBAD1001594A1 /* lgc.c in Sources */,
+				A1CE6DCC204FBAD1001594A1 /* lvm.c in Sources */,
+				A1CE6DC9204FBAD1001594A1 /* lua.c in Sources */,
+				A1CE6DAE204FBAD1001594A1 /* lbaselib.c in Sources */,
+				A1CE6DB6204FBAD1001594A1 /* ldump.c in Sources */,
+				A1CE6DBB204FBAD1001594A1 /* llex.c in Sources */,
+				A1CE6DAC204FBAD1001594A1 /* lapi.c in Sources */,
+				A1CE6DB4204FBAD1001594A1 /* ldebug.c in Sources */,
+				A1CE6DC0204FBAD1001594A1 /* lopcodes.c in Sources */,
+				A1CE6DB0204FBAD1001594A1 /* lcode.c in Sources */,
+				A1CE6DC2204FBAD1001594A1 /* lparser.c in Sources */,
+				A1CE6DAF204FBAD1001594A1 /* lbitlib.c in Sources */,
+				A1CE6DBE204FBAD1001594A1 /* loadlib.c in Sources */,
+				A1CE6DAD204FBAD1001594A1 /* lauxlib.c in Sources */,
+				A1CE6DBD204FBAD1001594A1 /* lmem.c in Sources */,
+				A1CE6DCA204FBAD1001594A1 /* lundump.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1CE6D69204FBAAD001594A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A1CE6D6A204FBAAD001594A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A1CE6D6C204FBAAD001594A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1CE6D6D204FBAAD001594A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1CE6D5F204FBAAD001594A1 /* Build configuration list for PBXProject "ceguiLuabind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CE6D69204FBAAD001594A1 /* Debug */,
+				A1CE6D6A204FBAAD001594A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1CE6D6B204FBAAD001594A1 /* Build configuration list for PBXNativeTarget "ceguiLuabind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CE6D6C204FBAAD001594A1 /* Debug */,
+				A1CE6D6D204FBAAD001594A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1CE6D5C204FBAAD001594A1 /* Project object */;
+}
